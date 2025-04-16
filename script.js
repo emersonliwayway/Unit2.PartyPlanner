@@ -21,6 +21,9 @@ form.addEventListener("submit", async (event) => {
   };
 
   await addEvent(party);
+
+  // clear form input
+  form.reset();
   render();
 });
 
