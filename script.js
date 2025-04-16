@@ -79,7 +79,7 @@ function renderEvents() {
     const card = document.createElement("li");
     card.innerHTML = `
         <h2>${party.name}</h2>
-        <p>Date: ${party.date}</p>
+        <p>Date: ${new Date(party.date).toLocaleDateString()}</p>
         <p>Location: ${party.location}</p>
         <p>Description: ${party.description}</p>
     `;
