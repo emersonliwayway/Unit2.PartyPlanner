@@ -7,5 +7,29 @@
     <link rel="stylesheet" href="style.css" />
     <title>Party Planner</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Party Planner</h1>
+    <h2>Schedule an Event</h2>
+    <div id="formDiv">
+      <form id="addEvent">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+        <br />
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date" />
+        <br />
+        <label for="location">Location:</label>
+        <input type="text" name="location" id="location" />
+        <br />
+        <label for="description">Event Description:</label>
+        <textarea name="description" id="description"></textarea>
+        <br />
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+    <h2>All Events</h2>
+    <div id="listDiv">
+      <ul id="eventList"></ul>
+    </div>
+  </body>
 </html>

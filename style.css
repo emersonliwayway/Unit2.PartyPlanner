@@ -1,0 +1,14 @@
+body {
+  margin: 20px;
+}
+
+#formDiv {
+  display: inline-block;
+  border: solid, 1px, black;
+  padding: 20px;
+}
+
+#addEvent {
+  display: flex;
+  flex-direction: column;
+}
