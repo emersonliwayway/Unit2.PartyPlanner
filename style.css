@@ -1,14 +1,73 @@
 body {
   margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+  display: flex;
+  margin: 10px;
+}
+
+.section {
+  display: inline-block;
+  padding: 10px;
 }
 
 #formDiv {
   display: inline-block;
-  border: solid, 1px, black;
-  padding: 20px;
+  box-sizing: border-box;
 }
 
 #addEvent {
   display: flex;
   flex-direction: column;
+  border: solid, 1px, black;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: maroon;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+#listDiv {
+  display: inline-flex;
+  border: solid, 1px, black;
+}
+
+#eventList {
+  list-style: none;
+  border: solid, 1px, black;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+#eventList > li > h2 {
+  color: maroon;
+}
+
+button {
+  background-color: darkslateblue;
+  color: white;
+  border: solid, 1px, black;
+  padding: 8px;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+#submit {
+  background-color: darkslateblue;
+  color: white;
+  border: solid, 1px, black;
+  padding: 8px;
+}
+
+#submit:hover {
+  background-color: seagreen;
 }
